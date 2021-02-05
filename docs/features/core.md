@@ -11,7 +11,7 @@ Nez will create an instance of the Graphics class (available via `Graphics.Insta
 
 
 ## Scene
-When you set Core.scene to a new Scene, Nez will finish rendering the current Scene, fire off the `CoreEvents.SceneChanged` event and then start rendering the new Scene. For more information on Scenes see the [Scene-Entity-Component](Scene-Entity-Component.md) FAQ.
+When you set Core.scene to a new Scene, Nez will finish rendering the current Scene, fire off the `CoreEvents.SceneChanged` event and then start rendering the new Scene. For more information on Scenes see the [Scene-Entity-Component](https://github.com/prime31/Nez/blob/master/FAQs/Scene-Entity-Component.md) FAQ.
 
 
 ## Sprites
@@ -45,7 +45,7 @@ animator.Play("Run");
 
 
 ## Sprite Atlases
-Far and away, the most common way to optimize a 2D game is to use sprite atlases. Nez comes with a sprite atlas packer tool and a runtime atlas loader. See [this README](../Nez.SpriteAtlasPacker/README.md) for more details. Here is a quick usage example. We will be using the folder hierarchy below for the example. Textures can be present in any of the folder. Those in `root-dir` will not be part of a sprite animation. Any sprites in subfolders will be part of sprite animations with the animation name being the folder name (`player`, `enemy1` and `enemy2` would all be valid animations).
+Far and away, the most common way to optimize a 2D game is to use sprite atlases. Nez comes with a sprite atlas packer tool and a runtime atlas loader. See [this README](https://github.com/prime31/Nez/blob/master/Nez.SpriteAtlasPacker/README.md) for more details. Here is a quick usage example. We will be using the folder hierarchy below for the example. Textures can be present in any of the folder. Those in `root-dir` will not be part of a sprite animation. Any sprites in subfolders will be part of sprite animations with the animation name being the folder name (`player`, `enemy1` and `enemy2` would all be valid animations).
 
 - root-dir
 	- player
