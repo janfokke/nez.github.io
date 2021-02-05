@@ -2,7 +2,7 @@ module.exports = {
   title: 'Nez',
   tagline: 'Nez is a free 2D focused framework that works with MonoGame and FNA ',
   url: 'https://janfokke.github.io/nez.github.io/',
-  baseUrl: 'nez.github.io/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
