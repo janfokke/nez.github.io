@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Nez',
   tagline: 'Nez is a free 2D focused framework that works with MonoGame and FNA ',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://janfokke.github.io/nez.github.io/',
+  baseUrl: 'nez.github.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Prime31', // Usually your GitHub org/user name.
+  organizationName: 'JanFokke', // Usually your GitHub org/user name.
   projectName: 'nez.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -23,7 +23,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/prime31/Nez',
           label: 'GitHub',
           position: 'right',
         },
@@ -83,13 +83,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/janfokke/nez.github.io/edit/main/docs',
+            'https://github.com/janfokke/nez.github.io/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/janfokke/nez.github.io/edit/main/blog',
+            'https://github.com/janfokke/nez.github.io/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
